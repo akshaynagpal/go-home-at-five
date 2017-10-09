@@ -3,7 +3,7 @@
 
 - Sending AJAX Post Request    
     `JSON.stringify()` if you are sending JSON.
-- 0 means False
+- 0 means False when evaluated as a Boolean.
     ```
     if hashmap[key]:
         do something
