@@ -17,4 +17,4 @@
     
     For example, the HTML declaration `<div id="first.name"></div>` is valid. You can select that element in CSS as `#first\.name` and in jQuery like so: `$('#first\\.name')`. But if you forget the backslash, `$('#first.name')`, you will have a perfectly valid selector looking for an element with id first and also having class name. This is a bug that is easy to overlook. You might be happier in the long run choosing the id first-name (a hyphen rather than a period), instead. 
 
-[Source](https://stackoverflow.com/a/79022/3120481)
+    [Source](https://stackoverflow.com/a/79022/3120481)
