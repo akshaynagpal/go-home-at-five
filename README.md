@@ -17,4 +17,8 @@
     
     For example, the HTML declaration `<div id="first.name"></div>` is valid. You can select that element in CSS as `#first\.name` and in jQuery like so: `$('#first\\.name')`. But if you forget the backslash, `$('#first.name')`, you will have a perfectly valid selector looking for an element with id first and also having class name. This is a bug that is easy to overlook. You might be happier in the long run choosing the id first-name (a hyphen rather than a period), instead. [Source](https://stackoverflow.com/a/79022/3120481)
 
+- Python - Using mutable default value (`list`, `dict` etc) for function arguments.   
+    This can lead to trippy behavior explained at https://stackoverflow.com/questions/1132941/least-astonishment-and-the-mutable-default-argument which further directs to http://effbot.org/zone/default-values.htm . TLDR- functions are first class objects in python.
+
 - Java - parseBoolean VS getBoolean [TODO]
+
